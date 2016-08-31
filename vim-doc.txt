@@ -1,0 +1,29 @@
+	sudo apt-get install vim
+	
+	b. Vim Commands
+	:help -     
+	1. i : insert mode
+ 
+	2. <ESC> : enter command mode
+		i.  w : Save / Don't Exit
+		ii. wq : Save / Quit
+		iii. q! : Quit / Discard Changes
+		iv. w : Move to front of next word
+		v. b : Move backwards to front of word
+		vi. 0 : Move to start of line
+		vii. $ : Move to end of line
+		viii. G : Jump to last line
+		
+	3. Move around with arrows
+
+	4. :set number : Displays line numbers
+		
+	5. :syntax on : Syntax Highlighting
+		
+	6. :set tabstop=2 : Spaces in tab
+		
+	7. :set autoindent : Indent new lines
+		
+	8. Save these in your home/~/.vimrc file
+
+  Find out what vimrc file you are using with this command in Vim :echo $MYVIMRC	
