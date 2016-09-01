@@ -1,0 +1,13 @@
+#!/bin/bash
+# https://www.youtube.com/watch?v=hwrnmQumtPw
+# interpreter # to use for the script
+# chmod 755 functions
+ #14:25
+ #!/bin/bash
+ 	# Define function
+ 	getDate() {
+ 		date # Get current date and time
+ 	 return
+ 	}
+ 	
+ 	getDate

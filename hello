@@ -25,6 +25,28 @@ declare -r NUM1=5    # Declare a constant
 # arithmetic  +=, -=, *=, /=
   rand=55
   let rand+=4
-  echo "$rand"
+  echo "$rand" # print 59 . if let is not present than 554
 
 ##  11:29  line 95
+
+	# Shorthand increment and decrement
+	echo "rand++ = $(( rand++ ))"
+	echo "++rand = $(( ++rand ))"
+	echo "rand-- = $(( rand-- ))"
+	echo "--rand = $(( --rand ))"
+
+		# Use Python to add floats
+	num7=1.2
+	num8=3.4
+	num9=$(python -c "print $num7+$num8")
+	echo $num9
+    cat /etc/passwd
+	# You can print over multiple lines with a Here Script
+	# cat prints a file or any string past to it
+	cat << END
+	This text
+	prints on
+	many lines
+	END
+
+	ls -l
