@@ -1,0 +1,18 @@
+#!/bin/bash
+# https://www.youtube.com/watch?v=hwrnmQumtPw
+ 
+# chmod 755 reg-exp
+ 
+
+#  Regular Expressions
+ 	read -p "Validate Date : " date
+	
+	pat="^[0-9]{8}$"
+	
+	if [[ $date =~ $pat ]]; then
+		echo "$date is valid"
+	else
+		echo "$date is not valid"
+	fi
+
+	#30:40 312
