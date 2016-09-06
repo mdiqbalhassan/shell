@@ -54,3 +54,26 @@
  	fi
  	
  	# && and || can be used as control structures
+
+
+   # Read multiple values
+  #!/bin/bash
+  
+  read -p "Enter 2 Numbers to Sum : " num1 num2
+  
+  sum=$((num1+num2))
+  
+  echo "$num1 + $num2 = $sum"
+  
+  # Hide the input with the s code
+  read -sp "Enter the Secret Code" secret
+  
+  if [ "$secret" == "password" ]; then
+    echo "Enter"
+  else
+    echo "Wrong Password"
+  fi
+# 34:12  343
+# $IFS is an  Internal Variables
+# Internal Field Separator
+# determines how  Bash recognizes fields 
